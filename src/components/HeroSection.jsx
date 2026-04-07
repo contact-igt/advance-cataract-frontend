@@ -26,7 +26,7 @@ export default function HeroSection({ heroNameRef, onSubmit }) {
               Advanced Cataract Care with <span className="text-[#00829b] brightness-125">Precision</span> & <span className="text-[#00829b] brightness-125">Safety</span>
             </h1>
             <p className="text-[1.05rem] sm:text-xl md:text-2xl lg:text-[1.6rem] xl:text-[1.7rem] text-white/90 font-medium drop-shadow-md mt-3 md:mt-5 leading-relaxed max-w-xl">
-              Advanced diagnosis, ethical treatment, and expert care for clearer vision at Advanced Focus Eye Hospital
+              Expert diagnosis, ethical treatment, and precision surgical care for clearer vision — at Advanced Focus Eye Hospital, Jubilee Hills, Hyderabad.
             </p>
           </div>
 

@@ -166,13 +166,13 @@ export default function GoogleReviews({ onBookAppointment }) {
             <GoogleLogo />
             <span className="text-sm font-semibold text-gray-500 uppercase tracking-wide">Reviews</span>
           </div>
-          <h2 className="text-2xl md:text-3xl font-bold text-[#002d5c]">
+                    <div className="flex items-center gap-2 mt-1">
+            <StarRating rating={5} />
+            <span className="text-sm text-gray-500 font-medium"> 4.9 out of 5</span>
+          </div>
+          <h2 className="text-2xl mt-1 md:text-3xl font-bold text-[#002d5c]">
             What Our Patients Say
           </h2>
-          <div className="flex items-center gap-2 mt-2">
-            <StarRating rating={5} />
-            <span className="text-sm text-gray-500 font-medium">4.9 out of 5 based on Google Reviews</span>
-          </div>
         </div>
         {/* Nav arrows */}
         <div className="hidden sm:flex items-center gap-2">

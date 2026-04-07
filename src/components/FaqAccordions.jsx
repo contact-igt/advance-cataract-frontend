@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import { Plus, Minus } from 'lucide-react';
 
 const FAQS = [
-  { q: 'What is a cataract?', a: 'A cataract is a condition that clouds the eye\'s natural lens, reducing vision and making everyday activities like reading and recognizing faces more difficult. It can also increase sensitivity to light.' },
-  { q: 'Why is early cataract detection important?', a: 'Early detection helps identify vision problems and eye conditions at the right stage so the correct treatment can be planned in time. Advanced Focus emphasizes detailed eye examinations and advanced diagnostic technology for accurate evaluation.' },
-  { q: 'Who will examine and treat me at Advanced Focus?', a: 'Dr. Anuja Pasham, founder of Advanced Focus Eye Hospital, is an ophthalmologist with over 14 years of experience and a strong focus on cataract, LASIK, glaucoma, and overall eye safety.' },
-  { q: 'What makes Advanced Focus different for cataract care?', a: 'The hospital combines eye-safety-focused care, advanced diagnostic and surgical equipment, minimally invasive techniques, and a patient-first experience with hospitality-trained staff.' },
-  { q: 'How can I book a consultation?', a: 'You can book a consultation by filling out the enquiry form or calling Advanced Focus Eye Hospital directly at +91 95051 16789.' },
+  { q: 'Why is early cataract detection important?', a: 'Early detection allows us to monitor cataract progression and plan the right treatment at the right time, before vision loss significantly affects your daily life. At Advanced Focus Eye Hospital, we use advanced diagnostic technology for accurate, detailed evaluation.' },
+  { q: 'Who will I see when I visit Advanced Focus Eye Hospital?', a: 'Your journey at Advanced Focus Eye Hospital begins with a comprehensive eye check-up by our Optometrist and our Consultant Eye Doctor, Dr. Anusha C. If cataract surgery is required, you will be referred to Dr. Anuja Pasham, our Phaco Refractive Surgeon, who leads all surgical cases. Our team also includes a dedicated Counsellor and an Insurance Advisor — ensuring every aspect of your care, and your questions about treatment, cost, and insurance coverage, are taken care of from day one.' },
+  { q: 'What makes Advanced Focus Eye Hospital different for cataract care?', a: 'Advanced Focus Eye Hospital offers 360-degree eye care — from your first check-up to post-surgical follow-up. We combine a Phaco Refractive Surgeon with 14+ years of experience, globally recognised ophthalmic equipment, NABH accreditation, minimally invasive surgical techniques, and a hospitality-trained team that prioritises your comfort at every step. Our Insurance Advisor and Counsellor ensure you have full clarity on your treatment plan and coverage before you decide.' },
+  { q: 'How can I book a consultation?', a: 'You can book a consultation by calling us on +91 95051 16789 or 040 3100 4343, or by filling out the appointment form on this page. Our team will confirm your slot and guide you on what to expect at your first visit.' }
 ];
 
 export default function FaqAccordions() {
