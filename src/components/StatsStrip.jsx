@@ -3,8 +3,8 @@ import React from 'react';
 const stats = [
   { highlight: '14+', label: 'Years of Experience' },
   { highlight: 'Advanced', label: 'Diagnostic Technology' },
-  { highlight: 'Minimally Invasive', label: 'Treatment Approach' },
-  { highlight: 'Expert', label: 'Eye Care in Hyderabad' },
+  { highlight: 'Minimally', label: 'Invasive Treatment Approach' },
+  { highlight: 'NABH', label: 'Accredited Hospital' },
 ];
 
 function StatItem({ stat, isDesktop }) {

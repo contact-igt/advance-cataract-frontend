@@ -15,12 +15,12 @@ export default function TestimonialFeatures({ onHeroEnquiry, onStickyBook }) {
           <div className="absolute inset-0 bg-gradient-to-r from-[#002d5c] via-[#002d5c]/90 to-transparent"></div>
         </div>
         <div className="relative z-10 w-full md:w-[70%] lg:w-[65%] text-white">
-          <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-4">What Patients Say About Advanced Focus</h2>
+          <h2 className="text-xl md:text-3xl font-bold mb-3 md:mb-4">What patients say about Advanced Focus Eye Hospital</h2>
           <div className="text-5xl md:text-7xl font-serif text-white leading-none mb-[-0.8rem] md:mb-[-1.5rem]">&ldquo;</div>
           <p className="text-sm md:text-base text-gray-200 leading-relaxed mb-4 md:mb-6 font-light">
-            Best treatment. Dr. Anuja treated my father who had blurred vision for the last two years. The hospital has advanced equipment, the surgery experience was smooth, and he was happy to get vision improvement within the same day. The staff were professional and supportive throughout.
+            Dr. Anuja treated my father, who had been struggling with blurred vision for two years. The equipment was advanced, the surgery was smooth and painless, and his vision improved within the same day. The staff were professional and supportive throughout.
           </p>
-          <p className="font-bold text-white text-sm md:text-base">– Patient Review</p>
+          <p className="font-bold text-white text-sm md:text-base">– Verified patient review</p>
         </div>
       </div>
 

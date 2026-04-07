@@ -2,11 +2,11 @@ import React from 'react';
 import { Eye, Activity, Globe, Sparkles, Award } from 'lucide-react';
 
 const FEATURES = [
-  { icon: <Eye className="w-6 h-6 text-white" />, title: 'Advanced Eye Evaluation', description: 'Your eyes are examined in detail using advanced diagnostic technology to detect problems early and plan treatment accurately.' },
-  { icon: <Activity className="w-6 h-6 text-white" />, title: 'Minimally Invasive Care', description: 'Modern techniques are used to make treatment safer, more precise, and more comfortable for every patient.' },
-  { icon: <Globe className="w-6 h-6 text-white" />, title: 'Globally Recognized Equipment', description: 'Our facility is equipped with advanced systems designed to improve diagnosis, treatment planning, safety, and patient comfort.' },
-  { icon: <Sparkles className="w-6 h-6 text-white" />, title: 'Patient-First Experience', description: 'Every patient is cared for with clear communication, hospitality-trained staff, and an approach focused on comfort, safety, and confidence.' },
-  { icon: <Award className="w-6 h-6 text-white" />, title: 'Expert-Led Treatment', description: 'Dr. Anuja brings over 14 years of experience in ophthalmology, including cataract and refractive procedures, with a strong commitment to eye safety.' },
+  { icon: <Eye className="w-6 h-6 text-white" />, title: 'Advanced Eye Evaluation', description: 'Your eyes are assessed in detail using advanced diagnostic equipment including DRS+ Retinal Imaging to detect issues early and plan treatment with precision.' },
+  { icon: <Activity className="w-6 h-6 text-white" />, title: 'Minimally Invasive Care', description: 'Modern phacoemulsification techniques make cataract surgery safer, more precise, and more comfortable with faster recovery for every patient.' },
+  { icon: <Globe className="w-6 h-6 text-white" />, title: 'Globally Recognized Equipment', description: 'Our facility is equipped with advanced ophthalmic systems for diagnosis, surgical planning, patient safety, and post-operative comfort.' },
+  { icon: <Sparkles className="w-6 h-6 text-white" />, title: 'Patient-First Experience', description: 'Every patient is attended to with clear communication and hospitality-trained staff focused on comfort, safety, and confidence at every step of the journey.' },
+  { icon: <Award className="w-6 h-6 text-white" />, title: 'Expert-led surgical care', description: 'Dr. Anuja Pasham, Phaco Refractive Surgeon with 14+ years of experience, leads all surgical cases bringing clinical precision and a strong commitment to eye safety to every procedure.' },
 ];
 
 export default function HowIsItUnique() {
@@ -17,7 +17,7 @@ export default function HowIsItUnique() {
         <div className="absolute inset-0 bg-[#002d5c]/85 mix-blend-multiply"></div>
       </div>
       <div className="relative z-10 p-6 md:p-12 lg:p-18">
-        <h2 className="text-2xl md:text-4xl font-bold text-white text-center mb-8 md:mb-14">Why Choose Advanced Focus for Cataract Care?</h2>
+        <h2 className="text-2xl md:text-4xl font-bold text-white text-center mb-8 md:mb-14">Why choose Advanced Focus for cataract care?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
           {FEATURES.map((f, idx) => (
             <div key={idx} className="flex gap-4 md:gap-5 bg-white/10 backdrop-blur-sm border border-white/20 p-4 md:p-6 rounded-xl md:rounded-2xl hover:bg-white/20 transition-colors">

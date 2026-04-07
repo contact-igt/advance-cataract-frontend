@@ -3,12 +3,12 @@ import { ChevronDown, Plus, Minus } from 'lucide-react';
 
 const SURGERY_ITEMS = [
   {
-    title: 'Customized Cataract Evaluation & Planning',
-    content: 'Every cataract case is different. At Advanced Focus Eye Hospital, your eyes are carefully assessed using advanced diagnostic systems so the treatment can be tailored to factors such as vision needs, eye structure, pressure, and dryness. This detailed planning helps improve safety, accuracy, and visual outcomes.',
+    title: 'Customised cataract evaluation & planning',
+    content: "A thorough pre-surgical assessment considering your eye's unique structure, pressure levels, and dryness to plan the right procedure and lens for you.",
   },
   {
-    title: 'Minimally Invasive Cataract Treatment',
-    content: 'Our approach emphasizes minimally invasive techniques and modern ophthalmic technology to make cataract treatment safer, more precise, and more comfortable. The goal is faster recovery, better clarity, and confident care at every step.',
+    title: 'Minimally invasive cataract treatment',
+    content: 'Using advanced phacoemulsification techniques and modern ophthalmic technology for safer, more precise surgery with faster recovery and better visual clarity.',
   },
 ];
 
@@ -18,10 +18,10 @@ export default function SurgeryAccordions() {
   return (
     <section className="bg-[#fdf6e3] Advanced Cataract Surgery at Advanced Focus section bg apply this color] p-6 sm:p-8 md:p-10 rounded-2xl md:rounded-[2rem] border border-gray-100 shadow-sm">
       <h2 className="text-2xl md:text-3xl font-bold text-[#002d5c] mb-4 md:mb-6">
-        Advanced Cataract Treatment at Advanced Focus
+        Advanced cataract treatment at Advanced Focus Eye Hospital
       </h2>
       <p className="text-sm md:text-base text-gray-600 mb-6 md:mb-8 leading-relaxed">
-        At Advanced Focus Eye Hospital, cataract care is not just about removing a cloudy lens — it is about restoring vision with precision, safety, and confidence. Guided by expert evaluation, advanced technology, and a minimally invasive approach, we aim to deliver the right treatment for each patient's unique eye condition.
+        At Advanced Focus Eye Hospital, cataract care goes beyond removing a cloudy lens. It is about restoring vision with precision, safety, and confidence. Every treatment plan is guided by expert evaluation, advanced diagnostic technology, and a minimally invasive surgical approach tailored to the unique structure of each patient's eye.
       </p>
 
       <div className="space-y-3 md:space-y-4">

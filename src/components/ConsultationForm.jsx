@@ -74,7 +74,7 @@ export default function ConsultationForm({ nameRef, formId, onSubmit }) {
           <div className="absolute inset-0 bg-gradient-to-br from-[#002d5c]/20 to-transparent pointer-events-none"></div>
           <h3 className="text-2xl font-bold text-white mb-1 relative z-10">Book Your Consultation</h3>
           <p className="text-teal-50 text-sm relative z-10">
-            Fill the form below and we will get back to you soon.
+            Fill in the form below and our team will get back to you shortly.
           </p>
         </div>
       </div>

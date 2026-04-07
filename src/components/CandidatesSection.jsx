@@ -9,27 +9,27 @@ const CANDIDATES = [
   {
     img: './assets/trouble_reading.png',
     alt: 'Difficulty reading or recognizing faces',
-    label: 'Find it difficult to read or recognize faces clearly',
+    label: 'Find it harder to read, drive, or recognise faces clearly',
   },
   {
     img: './assets/over_50.png',
     alt: 'Light sensitivity',
-    label: 'Feel more sensitive to light than before',
+    label: 'Feel more sensitive to bright light or glare than before',
+  },
+    {
+    img: './assets/struggle_with_vision.png',
+    alt: 'Expert evaluation',
+    label: 'Struggle with vision at night or in low light',
   },
   {
     img: './assets/reduce_glass.png',
     alt: 'Cataract changes',
-    label: 'Have been told you may have cataract changes',
+    label: 'Have been told you may have early cataract changes',
   },
   {
     img: './assets/stitch_free.png',
     alt: 'Timely diagnosis',
-    label: 'Want timely diagnosis before vision gets worse',
-  },
-  {
-    img: './assets/yellowish.png',
-    alt: 'Expert evaluation',
-    label: 'Need expert evaluation with advanced eye scanning',
+    label: 'Want a timely evaluation before your vision gets worse',
   },
 ];
 

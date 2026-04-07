@@ -11,7 +11,7 @@ export default function DoctorProfile({ onBookConsultation }) {
         <div className="w-full md:w-7/12 order-2 md:order-1 text-center md:text-left">
           <div className="text-sm md:text-base text-gray-700 space-y-4 md:space-y-5">
             <p>
-              Dr. Anuja Pasham, the founder of Advanced Focus Eye Hospital, is a skilled ophthalmologist with over 14 years of experience. She began her career as a refractive surgeon, specializing in cataract and LASIK procedures. With a strong focus on eye safety, she offers customized, minimally invasive treatments based on the unique structure and needs of each eye.
+              Dr. Anuja Pasham is the founder of Advanced Focus Eye Hospital and a specialist Phaco Refractive Surgeon with over 14 years of experience. Committed to one core principle eye safety, she began her career in refractive surgery, specialising in cataract and LASIK procedures. Through early partnerships with internationally recognised surgeons, she refined her approach to delivering customised, minimally invasive treatment, taking into account each patient's unique eye structure, pressure, and dryness levels. Dr. Anuja approaches every case with precision, compassion, and clinical rigour.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function DoctorProfile({ onBookConsultation }) {
             Dr. Anuja Pasham
           </h3>
           <p className="text-[#00829b] text-sm md:text-base text-center mt-1">
-            M.S (Ophthalmology) – Cataract &amp; Refractive Specialist
+            Phaco Refractive Surgeon, MS Ophthalmology
           </p>
         </div>
       </div>
