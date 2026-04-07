@@ -2,11 +2,11 @@ import React from 'react';
 import { Eye, Activity, Globe, Sparkles, Award } from 'lucide-react';
 
 const FEATURES = [
-  { icon: <Eye className="w-6 h-6 text-white" />, title: 'Advanced Eye Evaluation', description: 'Your eyes are assessed in detail using advanced diagnostic equipment — including DRS+ Retinal Imaging — to detect issues early and plan treatment with precision.' },
-  { icon: <Activity className="w-6 h-6 text-white" />, title: 'Minimally Invasive Care', description: 'Modern phacoemulsification techniques make cataract surgery safer, more precise, and more comfortable — with faster recovery for every patient.' },
+  { icon: <Eye className="w-6 h-6 text-white" />, title: 'Advanced Eye Evaluation', description: 'Your eyes are assessed in detail using advanced diagnostic equipment including DRS+ Retinal Imaging to detect issues early and plan treatment with precision.' },
+  { icon: <Activity className="w-6 h-6 text-white" />, title: 'Minimally Invasive Care', description: 'Modern phacoemulsification techniques make cataract surgery safer, more precise, and more comfortable with faster recovery for every patient.' },
   { icon: <Globe className="w-6 h-6 text-white" />, title: 'Globally Recognized Equipment', description: 'Our facility is equipped with advanced ophthalmic systems for diagnosis, surgical planning, patient safety, and post-operative comfort.' },
-  { icon: <Sparkles className="w-6 h-6 text-white" />, title: 'Patient-First Experience', description: 'Every patient is attended to with clear communication and hospitality-trained staff — focused on comfort, safety, and confidence at every step of the journey.' },
-  { icon: <Award className="w-6 h-6 text-white" />, title: 'Expert-led surgical care', description: 'Dr. Anuja Pasham, Phaco Refractive Surgeon with 14+ years of experience, leads all surgical cases — bringing clinical precision and a strong commitment to eye safety to every procedure.' },
+  { icon: <Sparkles className="w-6 h-6 text-white" />, title: 'Patient-First Experience', description: 'Every patient is attended to with clear communication and hospitality-trained staff focused on comfort, safety, and confidence at every step of the journey.' },
+  { icon: <Award className="w-6 h-6 text-white" />, title: 'Expert-led surgical care', description: 'Dr. Anuja Pasham, Phaco Refractive Surgeon with 14+ years of experience, leads all surgical cases bringing clinical precision and a strong commitment to eye safety to every procedure.' },
 ];
 
 export default function HowIsItUnique() {

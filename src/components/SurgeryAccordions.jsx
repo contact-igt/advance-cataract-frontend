@@ -4,7 +4,7 @@ import { ChevronDown, Plus, Minus } from 'lucide-react';
 const SURGERY_ITEMS = [
   {
     title: 'Customised cataract evaluation & planning',
-    content: "A thorough pre-surgical assessment considering your eye's unique structure, pressure levels, and dryness — to plan the right procedure and lens for you.",
+    content: "A thorough pre-surgical assessment considering your eye's unique structure, pressure levels, and dryness to plan the right procedure and lens for you.",
   },
   {
     title: 'Minimally invasive cataract treatment',
